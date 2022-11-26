@@ -1,0 +1,178 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+body {
+  display: flex;
+  margin: 0;
+  height: 100vh;
+  font-family: "Roboto", sans-serif;
+}
+
+.main {
+  width: 100%;
+}
+
+.topbar {
+  height: 8vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.content {
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.icon {
+  height: 8vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 2em;
+  cursor: pointer;
+}
+
+.icon ion-icon {
+  font-size: 2em;
+}
+
+.icon p {
+  margin: 0;
+}
+
+.icon:not(:first-of-type) {
+  height: 16vh;
+}
+
+.logo {
+  height: 50%;
+  padding-left: 20px;
+}
+
+.search-wrapper {
+  display: flex;
+  height: 50%;
+  width: 30%;
+}
+
+.search-wrapper input {
+  width: 100%;
+  padding: 0 1em;
+}
+
+.icons-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.top-icon {
+  font-size: 2em;
+  padding: 0 0.5em;
+}
+
+.mic-icon {
+  display: flex;
+  align-items: center;
+}
+
+.search-btn {
+  padding: 0 0.7em;
+  font-size: 1.3em;
+  display: flex;
+  align-items: center;
+}
+
+.videoblock {
+  display: flex;
+  flex-direction: column;
+  height: max-content;
+  width: 420px;
+  padding: 20px;
+  cursor: pointer;
+}
+.videoblock h4,
+.videoblock p {
+  margin: 0;
+  padding-left: 15px;
+}
+.videoblock p {
+  margin-top: 0.4em;
+  font-size: 0.8em;
+}
+.img-thumbnail {
+  width: auto;
+  height: 250px;
+}
+.videoinfo {
+  display: flex;
+  margin: 10px 0;
+}
+.auth-avatar {
+  width: 50px;
+  height: 50px;
+}
+.video-titles {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+#video1 > .img-thumbnail {
+  background: url(../assets/epicode_thumb.png);
+  background-size: cover;
+}
+#video1 .auth-avatar {
+  background: url(../assets/epicode-logo.png);
+  background-size: cover;
+}
+
+#video2 > .img-thumbnail {
+  background: url(../assets/epicode_thumb.png);
+  background-size: cover;
+}
+#video2 .auth-avatar {
+  background: url(../assets/epicode-logo.png);
+  background-size: cover;
+}
+
+#video3 > .img-thumbnail {
+  background: url(../assets/epicode_thumb.png);
+  background-size: cover;
+}
+#video3 .auth-avatar {
+  background: url(../assets/epicode-logo.png);
+  background-size: cover;
+}
+
+#video4 > .img-thumbnail {
+  background: url(../assets/epicode_thumb.png);
+  background-size: cover;
+}
+#video4 .auth-avatar {
+  background: url(../assets/epicode-logo.png);
+  background-size: cover;
+}
+
+
+#video5 > .img-thumbnail {
+  background: url(../assets/epicode_thumb.png);
+  background-size: cover;
+}
+#video5 .auth-avatar {
+  background: url(../assets/epicode-logo.png);
+  background-size: cover;
+}
+
+#video6 > .img-thumbnail {
+  background: url(../assets/epicode_thumb.png);
+  background-size: cover;
+}
+#video6 .auth-avatar {
+  background: url(../assets/epicode-logo.png);
+  background-size: cover;
+}
